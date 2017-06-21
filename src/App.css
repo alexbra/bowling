@@ -1,0 +1,85 @@
+input{
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+}
+.App {
+  text-align: center;
+}
+
+.scoreSheet{
+  min-width: 950px;
+}
+
+.headerRow{
+  display: flex;
+  font-weight: bold;
+}
+.playerRow{
+  display: flex;
+  height: 70px;
+}
+
+.playerNameCellHeader{
+  border: 1px solid #ccc; 
+  width: 150px; 
+}
+
+.playerTotalCellHeader{
+  border: 1px solid #ccc;  
+  width: 70px;
+  text-align: center;  
+}
+
+.playerScoreCell{
+  display: flex;
+  width: 70px;
+  border: 1px solid #ccc;
+  flex-direction: column;
+}
+
+.playerScoreCellDisabled{
+  display: flex;
+  width: 70px;
+  border: 1px solid #fff;
+  flex-direction: column;
+  background-color: #ccc;  
+}
+
+.playerInputsWrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.playerTotalCell {
+  display: flex;
+  border: 1px solid #ccc;  
+  padding: 25px 0px;
+  width: 70px;
+  text-align: left;
+}
+
+.playerNameCell{
+  width: 150px;
+  border: 1px solid #ccc;
+  padding: 25px 0px;
+  text-align: left;
+}
+
+.inputWrapper {
+  width: 20px;
+  height: 20px;
+}
+
+.frameScore{
+  padding: 12px;
+}
+
+.buttonsWrapper{
+  padding: 20px;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+}
